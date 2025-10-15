@@ -1,0 +1,33 @@
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+.orange{
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    width: 400px;
+    height: 100px ;
+    background-color: #ff671f;
+}
+.white {
+    border-left: solid;
+    border-right: solid;
+    width: 400px;
+    height:100px;
+    background-color:#ffffff;
+}
+.green{
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    width: 400px;
+    height: 100px;
+   background-color: green;
+}
+img{
+    width: 150px;
+    margin-left: 120px;
+    height: 100px;
+}
