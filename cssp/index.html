@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <p>inline css</p>
+    <p>external css</p>
+    <p>internal css</p>
+
+    <h1 class="selector" id="select">selectors</h1>
+    <!-- element selector
+h1{
+    color:red;
+}  -->
+
+    <!-- class selector
+.selector{
+    color:red;
+} -->
+
+    <!-- id selector
+#select{
+    color:red;
+} -->
+
+    <!-- universal selector
+*{
+    color:red;
+} -->
+
+    <!-- group selector
+p,h1{
+    color:red;
+} -->
+
+    <h1>colors and background</h1>
+    <!-- using hex
+h1{
+    color:#dnin123;
+} -->
+
+    <!-- using rgb
+h1{
+    color:rgb(245,0,0);
+} -->
+
+    <h1
+      style="
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: lowercase;
+      "
+    >
+      TEXT STYLING
+    </h1>
+    <div
+      style="
+        width: 200px;
+        height: 80px;
+        background-color: red;
+        border: 2px solid black;
+        padding: 4px;
+        margin: 10px;
+      "
+    >
+      <h1>BOX MODEL</h1>
+    </div>
+    <h1
+      style="border: 2px solid black; border-radius: 5px; border-color: yellow"
+    >
+      borders
+    </h1>
+    <div style="display: block; background-color: yellow">
+      <h1>display property</h1>
+      <h1>display:block</h1>
+    </div>
+    <span style="display: inline">
+      <h1>display property</h1>
+      <h1>display inline</h1>
+    </span>
+    <div>
+      <h1>POSITION PROPERTY</h1>
+    </div>
+    <ol>
+      <li>display:flex;</li>
+      <li>flex-direction</li>
+      <li>justify content</li>
+      <li>align items</li>
+      <li>gap</li>
+    </ol>
+    <ul>
+      <li>display:grid;</li>
+      <li>grid-template-columns</li>
+      <li>gap</li>
+    </ul>
+    <h1>HOVER EFFECTS</h1>
+    <!-- button:hover{
+  background-color: red;
+  color: white;
+} -->
+    <h1>TRANSITIONS</h1>
+    <!-- button {
+  transition: 0.5s;
+} -->
+    <h1>ANIMATIONS</h1>
+    <!-- @keyframes move {
+  from { left: 0px; }
+  to { left: 200px; }
+}
+
+.box {
+  position: relative;
+  animation: move 2s infinite;
+} -->
+    <h1>RESPONSIVE DESIGN</h1>
+    <!-- @media (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+} -->
+  </body>
+</html>
